@@ -5,7 +5,7 @@ image: 'https://images.unsplash.com/photo-1587324438673-56c78a866b15?ixlib=rb-1.
 ---
 
 ```js
-// here's some heavily customized syntax highlighting
+// A comment
 const loremFetcher = async (id: string) => {
   const url = `https://jsonplaceholder.typicode.com/comments`;
   const ipsum = await fetch(`${url}/?postId=${id}`);
